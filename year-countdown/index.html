@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year Countdown</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Russo+One&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <div class="boxes">
+            <div class="box" data-month="1">Jan</div>
+            <div class="box" data-month="2">Feb</div>
+            <div class="box" data-month="3">Mar</div>
+            <div class="box" data-month="4">Apr</div>
+            <div class="box" data-month="5">May</div>
+            <div class="box" data-month="6">Jun</div>
+            <div class="box" data-month="7">Jul</div>
+            <div class="box" data-month="8">Aug</div>
+            <div class="box" data-month="9">Sep</div>
+            <div class="box" data-month="10">Oct</div>
+            <div class="box" data-month="11">Nov</div>
+            <div class="box" data-month="12">Dec</div>
+        </div>
+
+        <div class="text">
+            <h1 id="username"></h1>
+            <h2><q>Stop wasting time, it's ticking out of your hand!</q></h2>
+            <div class="text-button">
+                <h3>Year Ends In</h3>
+            </div>
+            <div class="timeline">
+                <div class="year">
+                    <div id="year">00</div>
+                    <div>Year(s)</div>
+                </div>
+                <div class="month">
+                    <div id="months">00</div>
+                    <div>Month(s)</div>
+                </div>
+                <div class="day">
+                    <div id="days">00</div>
+                    <div>Day(s)</div>
+                </div>
+                <div class="hour">
+                    <div id="hours">00</div>
+                    <div>Hours(s)</div>
+                </div>
+                <div class="minute">
+                    <div id="minutes">00</div>
+                    <div>Minute(s)</div>
+                </div>
+                <div class="second">
+                    <div id="seconds">00</div>
+                    <div>Second(s)</div>
+                </div>
+                <div class="ms">
+                    <div id="ms">00</div>
+                    <div>MS</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
